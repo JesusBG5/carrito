@@ -29,3 +29,62 @@ input[type="submit"]{
 	font-size: 1em;
 	padding: 0.4em;
 }
+table{
+	margin: 0 auto;
+	width: 80%;
+}
+th{
+	background-color: steelblue;
+	color: white;
+}
+td{
+	text-align: center;
+	width: 30%;
+}
+table img{
+	max-width: 20%;
+}
+section#principal{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 auto;
+	text-align: center;
+	width: 80%;
+}
+article{
+	border: 1px solid lightblue;
+	margin: 2em;
+	text-align: center;
+	width: 20%;
+}
+article img{
+	background-color: white;
+	border: 1px solid steelblue;
+	border-radius: 50%;
+	min-width: 100px;
+	max-width: 100px;
+	height: 100px;
+}
+input[type="button"]{
+	background-color: black;
+	color: white;
+	margin: 0.4em;
+	padding: 0.3em;
+}
+header h1#encabezado{
+	background-color: steelblue;
+	color: white;
+	padding: 1em;
+	text-align: center;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+

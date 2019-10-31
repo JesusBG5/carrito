@@ -9,7 +9,7 @@ class Producto extends Conexion{
 
 	public function consulta(){
 	$this->sentencia = "SELECT * FROM producto;";
-	$this->obtener_sentencia();
+	return $this->obtener_sentencia();
 	}
 
 }

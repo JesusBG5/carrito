@@ -25,5 +25,24 @@
 		}
 	 ?>
 	</form>
+	<table>
+		<tr>
+			<th>Nombre</th>
+			<th>Precio</th>
+			<th>Imagen</th>
+		</tr>
+		<?php 
+		require_once("php/producto.php");
+		$obj = new Producto();
+		$res = $obj->consulta();
+		while($fila=$res->fetch_assoc()){
+	echo "<tr>";
+	echo "<td>".$fila["nombre"]."</td>";
+	echo "<td>".$fila["precio"]."</td>";
+	echo "<td><img src='img/".$fila["imagen"]."' ></td>";
+	echo "</tr>";
+		}
+		 ?>
+	 </table>
 </body>
 </html>
