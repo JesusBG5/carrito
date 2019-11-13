@@ -27,5 +27,8 @@
 		}
 	 ?>
 	 </section>
+	 <div id="total">
+	 	
+	 </div>
 </body>
 </html>
